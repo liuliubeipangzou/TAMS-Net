@@ -8,47 +8,9 @@ config = edict()
 # Recognition val targets
 config.val_targets = ['lfw', 'cfp_fp', "agedb_30", 'calfw', 'cplfw']
 
-# Recognition data
-config.rec = "/home/h3c/d9lab/tulei/SwinFace/data/faces_emore/"  
+
 config.num_classes = 85742
 config.num_image = 50000
-
-# Analysis data
-config.age_gender_data_path = "/d9lab/tulei/SwinFace/data/AIO_train"
-config.age_gender_data_list = ["UTKFace", "AAF", "MORPH"]
-config.LAP_train_data = "/d9lab/tulei/SwinFace/data/AIO_train/LAP/data"
-config.LAP_train_label = "/d9lab/tulei/SwinFace/data/AIO_train/LAP/trainval.txt"
-config.LAP_test_data = "/d9lab/tulei/SwinFace/data/AIO_train/LAP/data"
-config.LAP_test_label = "/d9lab/tulei/SwinFace/data/AIO_train/LAP/test.txt"
-config.LAP_val_data = "/d9lab/tulei/SwinFace/data/AIO_train/LAP/data"
-config.LAP_val_label = "/d9lab/tulei/SwinFace/data/AIO_train/LAP/val.txt"
-config.FGnet_data = "/d9lab/tulei/SwinFace/data/AIO_train/FGNET/data"
-config.FGnet_label = "/d9lab/tulei/SwinFace/data/AIO_train/FGNET/label.txt"
-
-config.CelebA_train_data = "/d9lab/tulei/SwinFace/data/CelebA/data"
-config.CelebA_train_label = "/d9lab/tulei/SwinFace/data/CelebA/train.txt"
-config.CelebA_val_data = "/d9lab/tulei/SwinFace/data/CelebA/data"
-config.CelebA_val_label = "/d9lab/tulei/SwinFace/data/CelebA/val.txt"
-config.CelebA_test_data = "/d9lab/tulei/SwinFace/data/CelebA/data"
-config.CelebA_test_label = "/d9lab/tulei/SwinFace/data/CelebA/test.txt"
-
-config.RAF_data = "/d9lab/tulei/SwinFace/data/RAF/data_Train"
-config.RAF_label = "/d9lab/tulei/SwinFace/data/RAF/train_labels.txt"
-
-config.AffectNet_data = "/d9lab/tulei/SwinFace/data/AffectNet/train"
-config.AffectNet_label = "/d9lab/tulei/SwinFace/data/AffectNet/7_train.txt"
-
-config.JyFace_train_data = "/d9lab/tulei/SwinFace/data/JyFace/data"
-config.JyFace_train_label = "/d9lab/tulei/SwinFace/data/JyFace/lable_train.txt"
-config.JyFace_val_label = "/d9lab/tulei/SwinFace/data/JyFace/lable_val.txt"
-
-config.HWB_train_data = "/d9lab/tulei/SwinFace/data/HWB/data"
-config.HWB_train_label = "/d9lab/tulei/SwinFace/data/HWB/lable.txt"
-
-config.VisualBMI_train_data = "/d9lab/tulei/SwinFace/data/VisualBMI/data"
-config.VisualBMI_train_label = "/d9lab/tulei/SwinFace/data/VisualBMI/data.txt"
-config.VisualBMI_val_label = "/d9lab/tulei/SwinFace/data/VisualBMI/label_val.txt"
-
 
 # Data loading settings
 config.img_size = 112
